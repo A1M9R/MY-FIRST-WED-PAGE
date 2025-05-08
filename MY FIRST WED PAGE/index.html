@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Login</title>
+    <Style>
+         body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background:url(image/tab.jpg) no-repeat;
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+ }
+ .card{
+    background-color: rgba(56, 152, 255, 0.441) ;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+ }
+ h1{
+    background-color:rgba(193, 193, 193, 0);
+    text-align: center;
+    margin: 20px;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+ }
+ input{
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: black;
+ }
+    </Style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Account Login</h1>
+      <form>
+        <div>
+        <input type="email" name="Email" id="Email" placeholder="Email" />  <i class='bx bx-user'></i>
+        </div>
+        <div>
+        <input type="password" name="" id="" placeholder="password" /><i class='bx bxs-lock-open'></i>
+        <div class="remember-forget">
+         <label><input type="checkbox">Remember me</label>
+        </div>
+        <a href="#">Forget password </a>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
